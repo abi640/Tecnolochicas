@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="# style1.css">
+    <link rel="stylesheet" href="# style2.css">
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="pagina principal.html">Pagina principal</a></li>
+        <li><a href="textos.html">Textos</a></li>
+        <li><a href="tablas.html">Tablas</a></li>
+        <li><a href="formularios.html">Formularios</a></li>
+   </ul>
+<br><br>
+<center>
+    <h1>formularios</h1>
+    <h2>uso de los formularios</h2>
+    <p>Los formularios en las páginas web se ocupan para la obtencion de información <br>
+    de los usuarios, para almacenarlos en una base de datos y llevar un orden</p>
+    <p>Cada sentencia en el siguiente formulario se ocupa para un tipo de registro diferente, algunos solo permiten <br> un tipo de texto en específico y otras se ocupan para uno o más registros en una sola sentencia</p>
+</center> 
+<form>
+    <fieldset>
+        <legend>Formulario 1</legend>
+        <br>
+        <label for="Nombre:"></label>
+        <input type="text" placeholder="Nombre"><br><br>
+        <label for="contraseña:"></label>
+        <input type="password" placeholder="Contraseña"><br><br>
+        <label for="curso:"></label>
+        <input type="radio" name="curso" value="paginasweb">
+        <input type="radio" name="curso" value="8D">
+        <input type="radio" name="curso" value="aplicaciones">
+        <label> Lenguajes del curso:</label><br>
+        <input type="checkbox" name="lenguajes" value="hyml">html<br>
+        <input type="checkbox" name="lenguajes" value="css">css<br>
+        <input type="checkbox" name="lenguajes" value="java">java<br>
+        <input type="checkbox" name="lenguajes" value="php">php<br>
+        <input type="checkbox" name="lenguajes" value="mysq1">mysq1<br>
+        <label>Grupo:</label>
+        <select>
+            <option>Grupo 1</option>
+            <option>Grupo 2</option>
+            <option>Grupo 3</option>
+            <option>No tengo grupo</option>
+        </select>
+        <br><br>
+        <label>Comentario:</label>
+        <textarea name="Comentario" cols="70" rows="10" placeholder="escribe tu comentario"></textarea>
+        <br><br>
+        <input type="button" class="bt" value="enviar datos">
+        <input type="reset" class="bt" value="borrar datos">
+        <input type="file" class="bt" value="examinar">
+
+    </fieldset>
+</form> 
+</body>
+</html>

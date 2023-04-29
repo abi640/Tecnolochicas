@@ -1,0 +1,28 @@
+form{
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    margin: auto;
+    width: 580px;
+    background: rgba(225, 255, 255, 0.87);
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+input, textarea{
+    outline: none;
+    border: solid 1px #ccc;
+    width: 500px;
+    padding: 10px;
+    color: #999;
+}
+input, select{
+    outline: none;
+    border: solid 1px #ccc;
+    color: #999;
+}
+input.bt{
+    color: rgba(255, 255, 255);
+    background: rgb(207, 124, 207);
+}

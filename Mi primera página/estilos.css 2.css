@@ -1,0 +1,21 @@
+head {text-align: center;
+}
+body {
+    background-color: rgb(142, 202, 218);
+    / font-family: "roboto", sans-serift;
+}
+h2 {color: rgb(34, 26, 63);
+text-align: center;}
+h1{color: bisque;
+     text-align: center;
+front:size 24px;}
+p {color: rgb(15, 19, 19);
+    text-align: justify;
+front: size 24px;
+font-style: italic
+}
+title{ text-align: center;
+color: rgb(50, 50, 107);}
+
+
+
